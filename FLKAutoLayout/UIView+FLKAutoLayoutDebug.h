@@ -16,3 +16,10 @@
 - (NSString *)flk_autolayoutTrace;
 
 @end
+
+@interface UILayoutGuide (FLKAutoLayoutDebug)
+
+@property (nonatomic, strong) NSString *flk_nameTag;
+
+@end
+
